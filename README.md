@@ -3,7 +3,7 @@
 A modular, TypeScript-based Discord bot featuring:
 
 - 🧠 Command handling
-- 🗕️ Cooldown system
+- ⌛ Cooldown system
 - ⚡ Event handling
 - 📷 `/generateqr` command that generates QR codes
 
@@ -45,7 +45,7 @@ src/
 - Uses `SlashCommandBuilder` to define slash commands.
 - Dynamically loads and registers all commands to a specific guild.
 
-### 🔁 Cooldown System
+### ⌛ Cooldown System
 
 - Each command can define a `cooldown` in seconds.
 - Cooldowns are enforced per-user to prevent spam.
