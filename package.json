@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.5.0"
+  },
+  "scripts": {
+    "dev": "tsx watch Src/index.ts",
+    "start": "node Dist/index.js",
+    "build": "tsup Src/index.ts --minify"
+  },
+  "devDependencies": {
+    "tsup": "^8.4.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3"
+  }
+}

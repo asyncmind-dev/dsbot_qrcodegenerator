@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "rootDir": "./Src",
+    "outDir": "./Dist",
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "baseUrl": "./Src",
+    "paths": {
+      "@classes/*": ["Classes/*"],
+      "@handlers/*": ["Handlers/*"],
+      "@interfaces/*": ["Interfaces/*"]
+    }
+  }
+}
